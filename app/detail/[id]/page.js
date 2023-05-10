@@ -1,4 +1,4 @@
-import { connectDB } from "../../util/database.js"
+import { connectDB } from "@/util/database.js"
 import { ObjectId  } from "mongodb";
 
 export default async function Detail(props){
